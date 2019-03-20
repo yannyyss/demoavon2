@@ -1,7 +1,7 @@
 .blue-circle {
   height: 100px;
   width: 100px;
-  background-color: orange;
+  background-color: #d45ea5;
   border-radius: 50%;
   display: inline-block;
 }
@@ -9,7 +9,8 @@
 .orange-circle {
   height: 150px;
   width: 150px;
-  background-color: orange;
+  background-color: #fb92d1;
+  border: #d45ea5 solid 1.5px;
   border-radius: 50%;
   display: inline-block;
 }
@@ -17,7 +18,7 @@
 .purple-circle {
   height: 100px;
   width: 100px;
-  background-color: orange;
+  background-color: #d45ea5;
   border-radius: 50%;
   display: inline-block;
 }

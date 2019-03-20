@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import Circle from "../../Components/Cicle/Circle";
+import MenuAppBar from "../../Components/MenuAppBar/MenuAppBar";
+import CampaignBar from "../../Components/CampaignBar/CampaignBar";
+import CampaignDividers from "../../Components/CampaignDividers/CampaignDividers";
 
 export class CampaignCalendar extends Component {
   render() {
     return (
       <div>
+        <MenuAppBar title="Calendario" />
+        <CampaignBar />
         <div
           style={{
             display: "flex",
@@ -13,8 +18,8 @@ export class CampaignCalendar extends Component {
             paddingRight: "2vh"
           }}
         >
-          <h5>Día de facturación</h5>
-          <h5 style={{ color: "pink" }}>29-enero-2019</h5>
+          <h4 style={{ color: "#808080" }}>Día de facturación:</h4>
+          <h4 style={{ color: "#ec0080" }}>29-enero-2019</h4>
         </div>
         <div
           style={{
@@ -33,8 +38,8 @@ export class CampaignCalendar extends Component {
           />
           <Circle
             circle="orange-circle"
-            variant="h4"
-            variant2="display2"
+            variant="h5"
+            variant2="display3"
             day="Lunes"
             date="22"
           />
@@ -46,7 +51,18 @@ export class CampaignCalendar extends Component {
             date="23"
           />
         </div>
-        <h5 style={{ color: "pink" }}>Momento de Campaña AVON</h5>
+        <div style={{ padding: "2vh" }}>
+          <h4
+            style={{
+              color: "#ec0080",
+              textAlign: "left",
+              marginBottom: "1vh"
+            }}
+          >
+            Momento de Campaña AVON:
+          </h4>
+          <CampaignDividers />
+        </div>
       </div>
     );
   }
