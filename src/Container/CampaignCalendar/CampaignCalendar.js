@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import Circle from "../../Components/Cicle/Circle";
-import MenuAppBar from "../../Components/MenuAppBar/MenuAppBar";
-import CampaignBar from "../../Components/CampaignBar/CampaignBar";
+import BarMenu from "../../Components/BarMenu/BarMenu";
+import BarCampaign from "../../Components/BarCampaign/BarCampaign";
 import CampaignDividers from "../../Components/CampaignDividers/CampaignDividers";
 
 export class CampaignCalendar extends Component {
   render() {
     return (
       <div>
-        <MenuAppBar title="Calendario" />
-        <CampaignBar />
+        <BarMenu title="Calendario" />
+        <BarCampaign />
         <div
           style={{
             display: "flex",
