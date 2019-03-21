@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import MenuAppBar from "../../Components/MenuAppBar/MenuAppBar";
-import MenuHome from "../../Components/MenuHome/MenuHome";
+import BarMenu from "../../Components/BarMenu/BarMenu";
+import BarHome from "../../Components/BarHome/BarHome";
 
 import SquareCard from "../../Components/SquareCard/SquareCard";
 import SlNet from "../../images/slNet.png";
@@ -17,8 +17,8 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <MenuAppBar title="Hola " name="Josefina" />
-        <MenuHome />
+        <BarMenu title="Hola " name="Josefina" />
+        <BarHome />
         <div
           style={{
             display: "flex",
