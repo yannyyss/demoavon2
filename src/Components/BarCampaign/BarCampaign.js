@@ -5,7 +5,7 @@ const BarCampaign = () => {
     <div>
       <div
         style={{
-          backgroundColor: "#ec008c",
+          backgroundColor: "#ec0080",
           width: "100%",
           height: "50px",
           display: "flex",
