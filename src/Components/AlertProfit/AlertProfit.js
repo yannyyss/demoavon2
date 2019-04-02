@@ -4,7 +4,7 @@ import { Button, Paper } from "@material-ui/core";
 const AlertProfit = () => {
   return (
     <div>
-      <Paper>
+      <Paper style={{ padding: "4vh 2vh", paddingBottom: "1vh" }}>
         <div>
           <p style={{ margin: "0" }}>
             Estos valores son referencias y pueden variar según las condiciones
