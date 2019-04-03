@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Circle from "../../Components/Cicle/Circle";
+import Circle from "../../Components/Circle/Circle";
 import BarMenu from "../../Components/BarMenu/BarMenu";
 import BarCampaign from "../../Components/BarCampaign/BarCampaign";
 import CampaignDividers from "../../Components/CampaignDividers/CampaignDividers";
