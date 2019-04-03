@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import BarMenu from "../../Components/BarMenu/BarMenu";
 import BarHome from "../../Components/BarHome/BarHome";
-
 import SquareCard from "../../Components/SquareCard/SquareCard";
 import SlNet from "../../images/slNet.png";
 import CampaignProgress from "../../images/campaignProgress.png";
@@ -27,12 +26,10 @@ export default class Home extends Component {
           }}
         >
           <SquareCard
-            img={SlNet}
+            img={CampaignProgress}
             alt="SLNet"
-            text="Red de"
-            textCut="Asesoras"
+            text="En Progreso"
           />
-          <SquareCard img={CampaignProgress} alt="SLNet" text="En Progreso" />
           <SquareCard img={SlRescue} alt="SLNet" text="Al Rescate" />
           <SquareCard img={CampainCalendar} alt="SLNet" text="Calendario" />
           <SquareCard
@@ -48,6 +45,12 @@ export default class Home extends Component {
             text="Simulador de"
             textCut="Ganancias"
             secondText="Asesoras"
+          />
+          <SquareCard
+            img={SlNet}
+            alt="SLNet"
+            text="Red de"
+            textCut="Asesoras"
           />
           <SquareCard img={FastSale} alt="SLNet" text="Pedido Rápido" />
           <SquareCard
