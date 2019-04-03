@@ -22,14 +22,11 @@ export default class Home extends Component {
           style={{
             display: "flex",
             flexWrap: "wrap",
-            justifyContent: "center"
+            justifyContent: "center",
+            marginTop: "1vh"
           }}
         >
-          <SquareCard
-            img={CampaignProgress}
-            alt="SLNet"
-            text="En Progreso"
-          />
+          <SquareCard img={CampaignProgress} alt="SLNet" text="En Progreso" />
           <SquareCard img={SlRescue} alt="SLNet" text="Al Rescate" />
           <SquareCard img={CampainCalendar} alt="SLNet" text="Calendario" />
           <SquareCard

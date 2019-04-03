@@ -7,7 +7,7 @@ const SquareCard = props => {
       <Card
         style={{
           width: "150px",
-          minHeight: "150px",
+          minHeight: "200px",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -19,7 +19,7 @@ const SquareCard = props => {
         <img
           alt={props.alt}
           src={props.img}
-          style={{ width: "120px", paddingBottom: "1vh" }}
+          style={{ width: "90px", paddingBottom: "1vh" }}
         />
         <Typography variant="title" style={{ color: "#808080" }}>
           {props.text}
