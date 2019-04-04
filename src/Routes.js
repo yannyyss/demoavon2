@@ -7,6 +7,7 @@ import ProfitSimulator from "./Containers/ProfitSimulator/ProfitSimulator";
 import CampaignProgress from "./Containers/CampaignProgress/CampaignProgress";
 import Rescue from "./Containers/Rescue/Rescue";
 import Network from "./Containers/Network/Network";
+import Report from "./Containers/Report/Report";
 
 export default () => (
   <Switch>
@@ -16,5 +17,6 @@ export default () => (
     <Route path="/campaignprogress" component={CampaignProgress} />
     <Route path="/rescue" component={Rescue} />
     <Route path="/network" component={Network} />
+    <Route path="/report" component={Report} />
   </Switch>
 );
