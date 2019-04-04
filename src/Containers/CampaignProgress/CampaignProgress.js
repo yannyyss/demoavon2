@@ -50,7 +50,13 @@ export class CampaignProgress extends Component {
           comparativo2="Comparativo Campaña 18:68"
           comparativo3="Comparativo Campaña 17:112"
         />
-        <div style={{ display: "flex", flexDirection: "row" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-around"
+          }}
+        >
           <SecondSquareCard
             color="border-color3"
             text="Consejeras sin Pedido"
